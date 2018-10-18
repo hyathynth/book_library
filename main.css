@@ -1,0 +1,34 @@
+section {
+    border: solid 2px black;
+    padding: 10px;
+    margin: 15px 0;
+    width: 320px;
+    display: block;
+}
+
+h4 {
+    font-size: 20px;
+    color:burlywood;
+    margin: 5px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+form {
+    padding: 30px;
+}
+
+button {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+#change {
+    color: darkgoldenrod;
+}
+
+#delete {
+    color: chocolate;
+}
