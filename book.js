@@ -11,9 +11,7 @@ function Book(title, author, pages, read, id=0) {
         var readString = this.read? "Read" : "Not read";
         return '<ul class="book" data-id=' + this.id + '><li><h4>' + title + '</h4></li><li>' + author + '</li><li>' + pages + ' pages</li><li>' + readString + '</li><li><button name="status" class="change">Change Status</button></li><li><button name="remove" class="delete">Delete</button></li></ul>';
     }
-    this.toggle = () => {
-        return this.read = !this.read;
-    }
+    this.toggle = () => this.read = !this.read;
 }
 
 function addBookToLibrary() {
